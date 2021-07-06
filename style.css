@@ -1,0 +1,70 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 2em;
+    color: gray;
+    line-height: 39px;
+}
+
+.flexible-container{
+    display: flex;
+    padding: 64px;
+    
+}
+.half-width{
+    font-size: 33px;
+    width: 50%;
+    padding: 70px;
+
+}
+.orange-color{
+    background: linear-gradient(to right, #FC8F49 0%, #FD5431 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 20px 40px;
+    color: white;
+    font-weight: 400;
+    border-radius: 40px;
+    box-shadow:10px 5px 20px rgb(128, 128, 128);
+}
+
+.about-me{
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-size: contain;
+    
+}
+.recipie-item{
+    width: 33%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+}
+.footer-area{
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 100px;
+    margin-top: 10px;
+}
+div.recipie-item img{
+    width: 100%;
+    
+   
+}
+.recipies-start{
+    text-align: center;
+}
+#new-person{
+    width: 53%;
+    height: 108%;
+    padding-left: 20%;
+}
