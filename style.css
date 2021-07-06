@@ -8,7 +8,7 @@ body{
     background-color: #333;
   }
   
-  .topnav a {
+.topnav a {
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -64,6 +64,10 @@ h1{
     padding: 20px;
     box-shadow: 10px 10px 40px gray;
     border-radius: 20px;
+    line-height: 30px;
+}
+div.recipie-item h1{  
+    color: black;
 }
 .footer-area{
     background-color: black;
