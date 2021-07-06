@@ -2,6 +2,24 @@ body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a.active {
+    background-color:#FE4B2F;
+    color: white;
+  }
 h1{
     font-size: 2em;
     color: gray;
@@ -26,7 +44,7 @@ h1{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(orange,tomato);
+    background-image: linear-gradient(to right, #FC8F49 0%, #FD5431 100%);
     padding: 20px 40px;
     color: white;
     font-weight: 400;
@@ -49,7 +67,7 @@ h1{
 }
 .footer-area{
     background-color: black;
-    color: blanchedalmond;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding-top: 55px;
     padding-bottom: 100px;
@@ -67,4 +85,14 @@ div.recipie-item img{
     width: 53%;
     height: 108%;
     padding-left: 20%;
+}
+
+.contact-us {
+    text-align: center;
+    padding: 0px;
+    font-size: 23px;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 20px;
+    margin: 119px;
+    padding-top: 20px;
 }
